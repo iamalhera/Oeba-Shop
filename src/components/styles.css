@@ -1,0 +1,23 @@
+.navigation{
+    background : var(--os-background-1);
+    color : var(--os-text);
+    flex-wrap : wrap;
+}
+.nav-logo{
+    color: var(--os-text);
+}
+.fas{
+    color : var(--os-background-2) !important;
+    -webkit-text-stroke:1px var(--os-text);
+}
+.icon-badge{
+    font-weight : 100 !important ;
+}
+@media screen and (max-width: 867px){
+    .navigation .nav-right {
+        display: flex;
+    }
+}
+.btn-shop{
+    background : var(--os-primary-6) !important ;
+}
