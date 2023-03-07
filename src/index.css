@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
 [data-theme="dark"] {
     --os-background-1: #010101;
     --os-background-2: #151515;
@@ -8,7 +9,7 @@
     --os-background-6: #454545;
     --os-background-7: #4f4f4f;
     --os-background-8: #6f6f6f;
-    --os-text : white;
+    --os-text: white;
     --os-primary-1: #083258;
     --os-primary-2: #244175;
     --os-primary-3: #2f5392;
@@ -19,6 +20,9 @@
     --os-secondary-2: #198131;
     --os-secondary-3: #1fa236;
     --os-secondary-4: #80ae36;
+    --os-secondary-5: #64c040;
+    --os-white: white;
+    --os-black: black;
 }
 
 :root {
@@ -31,7 +35,7 @@
     --os-background-6: #e4e4e4;
     --os-background-7: #e4e4e4;
     --os-background-8: #8c8c8c;
-    --os-text : black;
+    --os-text: black;
     --os-primary-1: #e7f0fb;
     --os-primary-2: #d8e9f8;
     --os-primary-3: #b3cff1;
@@ -42,12 +46,36 @@
     --os-secondary-2: #d6e9da;
     --os-secondary-3: #c0dec9;
     --os-secondary-4: #95cd9d;
+    --os-secondary-5: #85ca6a;
+    --os-white: white;
+    --os-black: black;
 }
 
-body{
-    background : var(--os-background-1);
-    color : var(--os-text);
+/* scrollbar  */
+::-webkit-scrollbar {
+    width: 0.9em;
 }
-button{
-    background : var(--os-primary-5) !important ;
+
+::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 100vw;
+    margin-block: .2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--os-primary-6);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--os-primary-5);
+}
+
+body {
+    background: var(--os-background-1);
+    color: var(--os-text);
+}
+
+button {
+    background: var(--os-primary-5) !important;
 }
