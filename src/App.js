@@ -17,16 +17,9 @@ function App() {
   return (
     <div className="App" data-theme={theme}>
       <Header />
-      <button className="btn btn-primary-outline" onClick={switchTheme}>
+      <button className="btn btn-primary-outline switch-btn" onClick={switchTheme}>
         Change Theme
       </button>
-      <br />
-      <label className="toggle-switch">
-        <input type="checkbox" id="chk-toggle" /> 
-        <div className="slider-container">
-          <span className="slider"></span>
-        </div>
-      </label>
 
       <Routes>
         <Route path="/" element={<Homepage />} />
