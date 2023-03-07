@@ -1,0 +1,39 @@
+/* homepage */
+.homepage-section{
+    color: var(--os-text) ;
+    background : var(--os-background-1) ;
+    display : flex ;
+    flex-direction : column;
+    justify-content : center ;
+    align-items : center ;
+    gap : 1rem ;
+    padding : 4rem 0 ;
+}
+.homepage-section h3{
+    margin : 0 ;
+}
+.section-list{
+    display : grid ;
+    width : 98%;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    gap : 5px ;
+}
+.article-item{
+    display : flex ;
+    padding : 1rem ;
+    flex-direction : column;
+    align-items : center ;
+    cursor : pointer ;
+    border-radius : .75rem ;
+    background-color : var(--os-background-5) ;
+}
+.article-item:hover{
+    background-color : var(--os-background-2);
+    border : 1px solid black ;
+}
+.section-list article img{
+    height : 10rem;
+    width : 10rem;
+    border-radius : 50% ;
+    margin-bottom : 5px ;
+}
