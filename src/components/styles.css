@@ -21,3 +21,58 @@
 .btn-shop{
     background : var(--os-primary-6) !important ;
 }
+
+/* Hero Section */
+.hero-section{
+font-family : monospace;
+position : relative;
+display : grid;
+}
+.hero-content{
+    display : inline-flex;
+    justify-content : flex-end;
+    align-items : center;
+    flex-direction : column;
+    width : 100%;
+    height : 100%;
+    padding : 1rem ;
+    color : white ;
+    font-size: 0.8rem ;
+    box-sizing :inherit;
+}
+.hero-content,
+.hero-background{
+    grid-column : 1/2;
+    grid-row : 1/2;
+}
+.btn-explore{
+    padding : 1.5rem 2rem ;
+    color : var(--os-white);
+    border : none ;
+    background : var(--os-secondary-5) !important;
+}
+/* footer */
+.os-footer{
+    color: var(--os-text);
+    border : 1px solid black ;
+    background-color : var(--os-background-1);
+    display : flex ;
+    flex-direction : column;
+    align-items : center ;
+}
+.footer-social-icons li{
+    margin : 1.75rem;
+}
+.footer-social-icons svg{
+    font-size : 2rem ;
+    color : var(--os-text);
+}
+.footer-social-icons svg:hover{
+    color : var(--os-background-8);
+}
+.os-footer-bottom{
+    justify-content : space-around;
+}
+.os-footer-bottom section{
+    margin-bottom : 1rem ;
+}
