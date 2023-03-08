@@ -2,11 +2,12 @@
     background : var(--os-background-1);
     color : var(--os-text);
     flex-wrap : wrap;
+    border-bottom : 1px solid black ;
 }
 .nav-logo{
     color: var(--os-text);
 }
-.fas{
+.nav-right .fas{
     color : var(--os-background-2) !important;
     -webkit-text-stroke:1px var(--os-text);
 }
@@ -75,4 +76,84 @@ display : grid;
 }
 .os-footer-bottom section{
     margin-bottom : 1rem ;
+}
+/* Single Product  */
+.card-description p {
+    color : var(--os-text);
+    margin : 0.4rem ;
+}
+.card-vertical{
+    background-color : var(--os-background-7);
+    width : 320px ;
+    border : 1px solid black ;
+}
+.card-btn-panel .fa-heart{
+    color : var(--os-white);
+    -webkit-text-stroke : 1px var(--os-text);
+    cursor : pointer
+}
+.card-btn-panel .fa-heart:hover{
+    color : red ;
+}
+.card-btn-panel .fa-heart-filled{
+    color : red ;
+}
+.btn-atc i{
+    background-color : var(--os-secondary-4) !important ;
+    color : var(--os-text);
+    font-size : 1.1rem ;
+    margin-right : 0.6rem;
+}
+.btn-atc{
+    background-color : var(--os-secondary-4) !important;
+    color : var(--os-text);
+}
+.btn-rmc{
+    background-color: rgb(191, 47, 47) !important ;
+}
+.btn-atc:hover{
+    background : var(--os-secondary-5) !important;
+}
+.card-description .description-1{
+    display : flex ;
+    align-items : center ;
+    flex-direction : column;
+}
+
+/* SingleCartItem */
+.card-horizontal{
+    width : 50% ;
+    margin : 2rem ;
+    border: 1px solid black ;
+    background-color : var(--os-background-5);
+}
+.card-horizontal .btn-rmc{
+    margin-left : 0.6rem;
+}
+.img-hrz{
+    width : 15rem ;
+    height : 15rem ;
+}
+select{
+    width : 3.8rem ;
+    height : 1.75rem ;
+    font-size : 1.1rem ;
+}
+
+/* Filter section  */
+.filters{
+    padding-left : 1rem ;
+    width : 20%;
+    display : flex ;
+    flex-direction: column;
+}
+.filters > *{
+    margin : 1rem ;
+}
+.search-filter{
+    height : 1.75rem ;
+    padding : 1.2rem ;
+    background-color : whitesmoke;
+    border-radius : 5px ;
+    font-size : 1.3rem ;
 }
