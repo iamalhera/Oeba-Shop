@@ -74,6 +74,7 @@
 body {
     background: var(--os-background-1);
     color: var(--os-text);
+    position: relative;
 }
 
 button {

@@ -1,8 +1,10 @@
 import React from 'react'
-
+// import { SingleCartItem } from "../components/SingleCartItem";
 const Wishlist = () => {
   return (
-    <div>Wishlist</div>
+    <div>
+      {/* <SingleCartItem /> */}
+    </div>
   )
 }
 
