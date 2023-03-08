@@ -7,7 +7,7 @@ const HeroSection = () => {
     <>
       <article className="hero-section">
         <div className="hero-background">
-          <img className="full-width" src={images.hero_img} alt="Hero Image" />
+          <img className="full-width" src={images.hero_img} alt="Hero" />
         </div>
         <div className="hero-content">
           <h2>optimum nutrition is the medicine of tomorrow</h2>
