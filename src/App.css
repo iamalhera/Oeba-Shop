@@ -2,7 +2,9 @@ body{
   position : relative ;
 }
 .App .switch-btn{
-  position : absolute;
+  /* position : absolute; */
+  z-index : 1;
+  position : fixed;
   bottom : 0 ;
   right : 0 ;
 
