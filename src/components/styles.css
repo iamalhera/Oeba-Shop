@@ -157,3 +157,60 @@ select{
     border-radius : 5px ;
     font-size : 1.3rem ;
 }
+/* wishlist */
+.card-wishlist{
+    width : 40% ;
+}
+.card-wishlist label {
+    color : var(--os-white);
+}
+.card-wishlist .fa-heart{
+    margin : 1rem ;
+}
+
+/* Profile component */
+.profile-component{
+    display : flex ;
+    flex-direction : column ;
+    align-items : center;
+    justify-content : center ;
+    color : var(--os-text);
+    background-color : var(--os-background-1);
+}
+.profile-container{
+    display : flex ;
+    border-top : 1px solid gray ;
+}
+.profile-links{
+    display : flex ;
+    flex-direction : column;
+    align-items : flex-start;
+    padding : 2rem;
+    border-right : 1px solid gray
+}
+hr{
+    width : 100% ;
+}
+.profile-detail-link{
+    font-size : 1.3rem ;
+    padding : 0.75rem ;
+    margin : 1.25rem ;
+    border-radius : 0.5rem ;
+    cursor: pointer;
+}
+.profile-detail-link:hover{
+    background-color : var(--os-secondary-5);
+    color : white ;
+}
+.profile-details{
+    padding : 2rem ;
+}
+.profile-row{
+    width : 100% ;
+    display : flex ;
+    align-items : center;
+    padding : 1rem 0 ;
+}
+.row-heading{
+    width : 12rem;
+}
