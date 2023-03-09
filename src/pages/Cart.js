@@ -15,7 +15,6 @@ const Cart = () => {
 useEffect(() => {
   setTotal(cart.reduce((acc, cur) => acc + Number((cur.price) * cur.qty), 0))
 }, [cart]);
-// console.log(cart);
 console.log(total);
 return (
   <div className="flex-row">
@@ -30,6 +29,7 @@ return (
       <h4>Subtotal ( {cart.length} ) items</h4>
       <h5> Total : Rs. {total}</h5>
       <button className="btn btn-primary-solid btn-chkout text-md-size"
+      disabled={cart.length===0 ? true : false}
         onClick={() => {
           cartDispatch({
             type: "PROCEED_TO_CHECKOUT"

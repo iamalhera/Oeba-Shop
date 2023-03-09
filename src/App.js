@@ -24,7 +24,6 @@ function App() {
             checked={theme === "dark" ? true : false}
             onChange={switchTheme}
             type="checkbox"
-            // id="chk-toggle"
             className="chk-toggle"
           />
           <div className="slider-container">

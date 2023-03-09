@@ -1,5 +1,4 @@
-import React from 'react'
-// import { MdiGithub, MdiLinkedin, MdiTwitter } from '../assets/icons/icons'
+import React from 'react';
 
 const Footer = () => {
     return (

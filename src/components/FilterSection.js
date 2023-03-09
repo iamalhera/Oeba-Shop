@@ -3,9 +3,7 @@ import { useCart } from '../context/Context';
 import Rating from './Rating';
 
 const Filters = () => {
-  // const [rate, setRate] = useState(4);
-  const { productState: { byStock, byFastDelivery, sort,  byRating }, productDispatch } = useCart();
-  console.log({ byStock, byFastDelivery, sort, byRating });
+  const { productState: { byStock, byFastDelivery, sort,  byRating, searchQuery }, productDispatch } = useCart();
   return (
     <div className="filters">
       <h6 className="title text-lg-size">Filter Products</h6>
@@ -69,6 +67,7 @@ const Filters = () => {
         />
       </span>
       <input className="search-filter" placeholder="Search"
+      value={searchQuery}
       onChange={(e)=>{
         productDispatch({
           type: "FILTER_BY_SEARCH",

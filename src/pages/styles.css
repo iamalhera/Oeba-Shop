@@ -56,14 +56,11 @@
 
 /* Cart Page */
 .cart-product-container{
-    width: 75%;
-    /* height : 90vh; */
     display : flex ;
     flex-direction :column;
+    width: 75%;
     color: var(--os-text);
     align-items : center ;
-    /* padding : 2rem ; */
-    /* background-color : var(--os-background-5); */
 }
 
 .cart-summary{
@@ -88,5 +85,5 @@
     color : white ;
     display : flex ;
     align-items : center ;
-    gap : 1rem ;
+    justify-content : space-around;
 }

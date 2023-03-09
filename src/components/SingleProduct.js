@@ -4,7 +4,6 @@ import Rating from './Rating'
 
 export const SingleProduct = ({ product, id }) => {
     const { cartState: { cart, wishlist }, cartDispatch } = useCart();
-    // console.log({ cart, wishlist })
     return (
         <div className="card card-vertical card-vertical-thin" key={id}>
             <div className="card-image-vertical">
