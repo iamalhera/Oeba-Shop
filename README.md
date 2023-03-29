@@ -20,7 +20,7 @@ Access this [webApp](https://oebashop.netlify.app)
 -[Status](#status)
 
 ## About the App
-It is an ecommerce webApp made with the help of HTML, CSS, JS, React, React-Router and some APIs. Its purpose was to extensively understand the use of useReducer + useContext as a state management. It is SPA made with react-router to perform client-side routing. This app also has a functinality od dark mode.
+It is an ecommerce webApp made with the help of HTML, CSS, JS, React, React-Router and some APIs. Its purpose was to extensively understand the use of useReducer + useContext as a state management. It is SPA made with react-router to perform client-side routing. This app also has a functinality of dark mode.
 
 ## Screenshot
 ![Landing Page](./src/assets/app_scr/landing-page.png)
